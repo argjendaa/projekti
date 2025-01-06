@@ -334,7 +334,6 @@ a {
 
 
   
-   Responsive layout  makes a one column-layout instead of two-column layout 
   @media (max-width: 800px) {
     .flex-container {
       flex-direction: column;
@@ -465,10 +464,11 @@ header .navbar ul{
   background-size: cover;
 
 }
-.analizalaburatore{
-  background-image: url('');
-  background-position: 40%;
+.analizalaburatorike{
+  background-image: url('https://media.istockphoto.com/id/1193999867/vector/microbiological-biotechnology-research-laboratory-equipment-chemical-dropper-and-test-tube.jpg?s=612x612&w=0&k=20&c=5W4y-aPSKeH9OkJYaG0MkSkPOkvgFJ--I2916utw31c=');
+  background-position: 60%;
   background-size: cover;
+
 
 }
 .dermatologjia{
@@ -925,8 +925,8 @@ letter-spacing: .5rem;
 
   }
 
-  @media (max-width: 800px) {
+ @media (max-width: 800px) {
     .flex-item-right, .flex-item-left {
-      flex: 100%
+        flex: 100%;
     }
-  }
+}

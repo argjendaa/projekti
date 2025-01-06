@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+  background-image: url('https://t4.ftcdn.net/jpg/06/39/50/63/360_F_639506337_9LQK7W4jkmCixMk1TQ6rgYOW0jsHiH0N.jpg');
+  background-position: right;
+  background-size: cover;
+}
+
+
+
+*{
+  font-family:'DM' Serif, TextStatic;
+  margin: 0; padding: 0;
+  text-decoration: none;
+  
+  outline: none;
+  box-sizing: border-box;
+ transition: all linear .2s;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.about .box-container .box{
+    width: 75%;
+    margin: 4rem auto;
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    display: flex;
+    align-items: start;
+    overflow: hidden;
+   justify-items: auto;
+   padding: 30px;
+   margin-left: 50px;
+   margin-right: 50px;
+  }
+
+
+  .box-container{
+    border-style:double;
+    border-width: 14px;
+    box-shadow: #444d53;
+    text-align: center;
+    font-size: 15px;
+    color: aqua;
+    background-color: rgba(76, 150, 171, 0.7);
+    color: white;
+    text-align: start;
+    margin: 50px;
+    padding: 30px;
+    
+  }
+
+
+  .footer{
+    background:rgba(82, 144, 207, 0.7); ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    }
+    
+    .footer .box{
+    width: 30rem;
+    margin: 2rem;
+    text-align: center;
+    }
+    
+    .footer .box:nth-child(1){
+    text-align: left;
+    }
+    
+    /* logo  */
+    
+    .footer .box .logo{
+    padding: 2rem 0;
+    font-size: 3rem;
+    color: white;
+    }
+    
+    .footer .box .logo:hover{
+    color: aqua;
+    }
+    
+    .footer .box .logo span{
+    color: aqua;
+    }
+    
+    .footer .box p{
+    font-size: 1.5rem;
+    color: white;
+    }
+    
+    .footer .box a{
+    color: white;
+    font-size: 2rem;
+    display: block;
+    padding: .2rem 0;
+    }
+    
+    .footer .box a:hover{
+    text-decoration: underline;
+    }
+    
+    
+    .footer .credit{
+    width: 85%;
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: aqua;
+    text-align: center;
+    border-top: .2rem aqua;
+    }
+    
+    .footer .credit span{
+    color: white;
+    text-decoration: underline;
+    letter-spacing: .5rem;
+    }

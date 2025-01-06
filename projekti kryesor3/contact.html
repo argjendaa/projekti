@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ballina.css">
+    
+    <script src="script.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <span class="navbar-toggler-icon"></span>
+
+        
+        <a href="#" class="logo"><span>Medicine</span> Key</a>
+
+      
+       <nav class="navbar">
+            <ul>
+                <li><a href="/ballina.html">ballina</a></li>
+                <li><a href="/specializimet.html">specializimet</a></li>
+                <li><a href="/stafimjeksor.html">stafi mjekësor</a></li>
+                <li><a href="/pacientët.html">pacientët</a></li>
+                <li><a href="/contact.html">kontakto</a></li>
+              
+            </ul>
+          </nav>
+    </header>
+   
+    <section id="ai-kontakto" class="kontakto">
+
+        <h1 class="heading">Na kontaktoni</h1>
+      
+        <div class="form">
+
+        
+           
+
+            <div class="form-container">    
+                <form class="contact-form" action="/rezultat.html" method="GET">
+            <input type="text" placeholder="" name="" id="" required placeholder="Enter your name">
+            <input type="email" placeholder="" name="" id="" required placeholder="Enter your email">
+
+            <input type="number" placeholder="" name="" id="" required placeholder="Enter your number">
+            <textarea name="" cols="30" rows="10" id=""></textarea>
+            <input type="submit" value="send">
+
+
+           
+           </form>
+           
+            </div>
+        </div>
+
+
+
+
+
+        
+
+
+
+
+    </section>
+
+</body>
+</html>
+<script>
+    document.getElementById('contactForm').addEventListener('submit'), function(event) {
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+    var errorMessage = document.getElementById('error-message');
+    
+
+    // Kontrollo nëse ka fusha të pashënuara
+    if (name === "" || email === "" || message === "") {
+        errorMessage.textContent = "Të gjitha fushat janë të kërkuara!";
+        event.preventDefault(); // Nuk e lejon dërgimin e formularit
+    }
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

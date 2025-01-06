@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faleminderit për Kontaktin!</title>
+    <link rel="stylesheet" href="rezultat.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/">LogoFaqe</a>
+        </div>
+    </header>
+    
+    <main>
+        <div class="thank-you-message">
+            <h1>Faleminderit që na kontaktuat!</h1>
+            <p>Mesazhi juaj është dërguar me sukses. Do të kontaktojmë me ju sa më shpejt që të jetë e mundur.</p>
+            <p>Shikoni përmbledhjen e të dhënave të dërguara:</p>
+            <ul>
+                <li><strong>Name:</strong>  <span id="name"></span></li>
+                <li><strong>Email:</strong> <span id="email"></span></li>
+                <li><strong>Message:</strong> <span id="message"></span></li>
+            </ul>
+            <p>Ndërkohë, mund të shfletoni faqen tonë kryesore ose të na kontaktoni përsëri për çdo pyetje.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 LogoFaqe. Të drejtat e rezervuara.</p>
+    </footer>
+
+    <script>
+    const urlParams = new URLSearchParams(window.location.search);
+
+    document.getElementById("name").textContent = urlParams.get('Name') || "name";
+        document.getElementById("Email").textContent = urlParams.getEm('Email') || "email";
+        document.getElementById("Message").textContent = urlParams.get('Message') || "message";</script>
+</body>
+</html>

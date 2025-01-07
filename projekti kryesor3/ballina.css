@@ -477,10 +477,11 @@ header .navbar ul{
   background-size: cover;
 
 }
-.urgjenca24h{
+.emergjenca24h{
   background-image: url('https://img.freepik.com/premium-vector/first-aid-box-medical-equipment-help-support-people-with-illness-emergency-assistance-concept-abstract-low-poly-wireframe-mesh-design-dark-blue-background-vector-illustration_587448-35.jpg');
   background-position: 40%;
-  background-size: cover;
+  background-size: center;
+  
 
 }
  
@@ -499,6 +500,7 @@ font-size: medium;
 margin-top: 100px;
 margin: 50px;
 padding: 50px;
+
 }
 
  /* specializimet*/
@@ -506,9 +508,9 @@ padding: 50px;
 /*stafi mjeksor*/
 
 
-.stafimjeksor .box-container{
+/*.stafimjeksor .box-container{
   padding: 4rem 0;
-}
+}*/
 
 .stafimjeksor .navbar{
   text-decoration: none;
@@ -516,9 +518,38 @@ padding: 50px;
 }
 .card-body {
   background-color: #dddddd86;
-  color: rgb(27, 105, 161);
+  color: rgb(241, 241, 241);
   
 }
+
+/*doktor*/
+
+.doctor{
+    
+  background-image: url('https://media.istockphoto.com/id/1189758168/photo/female-doctor-holding-stethoscope-on-black-background.jpg?s=612x612&w=0&k=20&c=o68VtK6uz9xdrKUhPCwuId5ZnLWEru5_Fjhn3rRXRqc=');
+  background-position: center;
+  background-size: cover;
+
+
+}
+.card-1{
+
+border: 3px;
+color: white;
+font-size: medium;
+margin-top: 100px;
+margin: 50px;
+padding: 50px;
+margin-right: 710px;
+text-shadow: #021018;
+}
+
+.doctor1 {
+background-image: url('https://media.istockphoto.com/id/1180864284/photo/doctor-with-arms-crossed.jpg?s=612x612&w=0&k=20&c=21KufwgQgfHp-UfspMxeoDNkZhUvK486maAQHZfjAkM=');
+  background-position: center;
+  background-size: cover;
+}
+
 
 
 

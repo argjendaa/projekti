@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt - Spitali</title>
+  <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</head>
+<body id="medicinekey-website" class="ai-kontakto">
+  <header>
+    <div class="ai-container">
+        <div class="ai-container2">
+        <a href="ballina.html" class="ai-logo">Medicine <span>Key</span></a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-none ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="/ballina.html">Ballina</a></li>
+                <li class="nav-item"><a class="nav-link" href="/sherbime.html">Shërbimet</a></li>
+                <li class="nav-item"><a class="nav-link" href="/stafimjeksor.html">Stafi mjekesor</a></li>
+                <li class="nav-item"><a class="nav-link" href="/pacientët.html">Pacientët</a></li>
+                <li class="nav-item"><a class="nav-link" href="/kontakto.html">Kontakto</a></li>
+            </ul>
+             </div>
+            </nav>
+         </div>
+    </div>
+  </header>
+<div class="ai-container3 mt-3">
+  
+  <div class="ai-titulli text-center">
+      <h1>Kontakti</h1>
+  </div>
+  <div class="ai-sherbimi mt-4">
+    <form id="contactForm">
+    
+      <div class="form-group mb-3">
+        <label for="name">Emri juaj</label>
+        <input type="text" id="name" name="name" class="form-control" placeholder="Shkruani emrin tuaj" required>
+      </div>
+
+      
+      <div class="form-group mb-3">
+        <label for="phone">Numri i Telefonit</label>
+        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Shkruani numrin tuaj të telefonit" pattern="[0-9]{9,15}" required>
+      </div>
+
+      
+      <div class="form-group mb-3">
+        <label for="email">Email-i juaj</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="Shkruani email-in tuaj" required>
+      </div>
+
+      
+      <div class="form-group mb-3">
+        <label for="service">Rubrika e Shërbimit</label>
+        <select id="service" name="service" class="form-select" required>
+          <option value="" disabled selected>Zgjidh një shërbim</option>
+          <option value="pulmologji">pulmologji</option>
+          <option value="kardiologji">kardiologji</option>
+          <option value="stomatologji">stomatologji</option>
+          <option value="neurologji">neurologji</option>
+          <option value="pediatri">pediatri</option>
+          <option value="onkologji">onkologji</option>
+          <option value="ortopedi">ortopedi</option>
+          <option value="analiza laburatorike">analiza laburatorike</option>
+          <option value="dermatologji">dermatologji</option>
+          <option value="dhurim gjaku">dhurim gjaku(oferta)</option>
+          <option value="kontrollaperkancer te gjirit">kontrolla per kancer gjiri(oferta)</option>
+          <option value="kontrollaperdiabet">kontrolla per diabet(oferta)</option>
+        </select>
+      </div>
+      <div class="form-group mb-3">
+        <label for="message">Mesazhi</label>
+        <textarea id="message" name="message" class="form-control" rows="4" placeholder="Shkruani mesazhin tuaj" required></textarea>
+      </div>
+
+      
+      <button id="submitButton" type="submit" class="btn btn-primary w-100">Dërgo</button>
+    </form>
+
+    
+    <div id="confirmationPage" class="confirmation d-none mt-4 text-center">
+      <h2>Faleminderit që na kontaktuat!</h2>
+      <p>Mesazhi juaj është dërguar me sukses. Ne do të përgjigjemi së shpejti.</p>
+      <button onclick="resetForm()" class="btn btn-secondary">Kthehu te formulari</button>
+    </div>
+  </div>
+</div>
+<section class="ai-footer">
+
+  <div class="ai-box">
+      <h2 class="lai-ogo"><span>Medicine</span> Key</h2>
+
+      <p>Spitali rajonal i cili ofron sherbime specialistike per trajtimin e problemeve shendetsore ekzaminimin dhe diagnostifikimin e tyre.</p>
+  </div>
+
+  <div class="ai-box">
+      <h2 class="ai-logo"><span>share</span></h2>
+
+      <a href="https://www.facebook.com">facebook</a>
+      <a href="https://www.twitter.com">twitter</a>
+      <a href="https://www.instagram.com">instagram</a>
+      
+  </div>
+
+   
+  <div class="ai-box">
+    <h2 class="ai-logo"><span>Links</span></h2>
+
+    <a href="/ballina.html"> ballina</a>
+    <a href="/sherbime.html">specializimet</a>
+    <a href="/stafimjeksor.html">stafi mjeksor</a>
+    <a href="/pacientet.html">pacientët</a>
+    <a href="/kontakto.html">kontakto</a>
+   
+</div>
+  <div class="ai-credit">
+    <p>&copy; 2025 Spitali Medicine Key. Të gjitha të drejtat e rezervuara.</p>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
